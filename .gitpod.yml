@@ -1,4 +1,5 @@
 
 tasks:
-  - init: bash setup.sh && yarn run installation && yarn run run-app
+  - init: docker build -t appflow .
+  - command: docker run -p 9888:9888 appflow
 

@@ -39,7 +39,7 @@ RUN npm install -g yarn
 RUN yarn run installation
 
 # Expose port 3000 for the application
-EXPOSE 3000
+EXPOSE 9888
 
 # Define the command to run your application
 CMD [ "yarn", "run", "run-app" ]

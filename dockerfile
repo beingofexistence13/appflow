@@ -13,6 +13,7 @@ RUN bash -c ". .nvm/nvm.sh \
 
 RUN echo "nvm use default &>/dev/null" >> ~/.bashrc.d/51-nvm-fix
 
+WORKDIR workspace/appflow
 # Install dependencies
 RUN sudo apt-get update \
     && sudo apt-get install -y --no-install-recommends \
@@ -32,7 +33,7 @@ COPY . .
 
 # Run scripts
 # RUN yarn run installation && yarn run-app
-
+RUN chown -R gitpod ~/.config && chown -R gitpod ~/.cache
 RUN npm install -g yarn
 RUN yarn run installation
 

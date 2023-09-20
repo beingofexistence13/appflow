@@ -1,8 +1,11 @@
-FROM gitpod/workspace-full:latest
+# Start with the Gitpod image
+FROM gitpod/workspace-full:latest AS gitpod
 
+# Switch to the gitpod user
 USER gitpod
 
-# We use latest major version of Node.js distributed VS Code. (see about dialog in your local VS Code)
+
+# Install Node.js via nvm (Node Version Manager)
 RUN bash -c ". .nvm/nvm.sh \
     && nvm install 18 \
     && nvm use 18 \
@@ -19,3 +22,16 @@ RUN sudo apt-get update \
         libasound2 libgbm1 xfonts-base xfonts-terminus fonts-noto fonts-wqy-microhei \
         fonts-droid-fallback vim-tiny nano libgconf2-dev libgtk-3-dev twm \
     && sudo apt-get clean && sudo rm -rf /var/cache/apt/* && sudo rm -rf /var/lib/apt/lists/* && sudo rm -rf /tmp/*
+
+
+# Copy package.json and yarn.lock files
+COPY package.json yarn.lock /
+
+# Copy all other project files
+COPY . .
+
+# Run scripts
+# RUN yarn run installation && yarn run-app
+USER root
+RUN chown -R root ~/.config && chown -R root ~/.cache
+RUN yarn run installation && yarn run run-app

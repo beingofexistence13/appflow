@@ -34,6 +34,7 @@ COPY . .
 # RUN yarn run installation && yarn run-app
 USER root
 RUN chown -R root ~/.config && chown -R root ~/.cache
+RUN npm install -g yarn
 RUN yarn run installation
 
 # Expose port 3000 for the application

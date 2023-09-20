@@ -10,6 +10,7 @@
   "private": true,
   "scripts": {
     "dxcode": "bash setup.sh && yarn && yarn server:init && export NODE_ENV=development && export VSCODE_DEV=1 && ./scripts/code-server.sh --without-connection-token",
+    "docker": "docker build -t appflow . && docker run -p 3000:3000 appflow",
     "init": "docker-compose up",
     "installation": "yarn && yarn server:init",
     "watch-app": "export NODE_ENV=development && export VSCODE_DEV=1 && yarn gulp watch-init",

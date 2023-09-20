@@ -37,7 +37,7 @@ RUN chown -R root ~/.config && chown -R root ~/.cache
 RUN yarn run installation
 
 # Expose port 3000 for the application
-EXPOSE 9888
+EXPOSE 3000
 
 # Define the command to run your application
 CMD [ "yarn", "run", "run-app" ]

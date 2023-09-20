@@ -1,5 +1,5 @@
 
 tasks:
   - init: docker build -t appflow .
-  - command: docker run -p 9888:9888 appflow
+  - command: docker run -p 3000:3000 appflow
 

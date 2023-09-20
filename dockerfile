@@ -33,7 +33,8 @@ COPY . .
 
 # Run scripts
 # RUN yarn run installation && yarn run-app
-RUN chown -R gitpod ~/.config && chown -R gitpod ~/.cache
+USER root
+RUN chown -R root ~/.config && chown -R root ~/.cache
 RUN npm install -g yarn
 RUN yarn run installation
 

@@ -29,11 +29,13 @@ RUN sudo apt-get update \
 # Copy package.json and yarn.lock files
 COPY package*.json ./
 
-# RUN yarn run installation && yarn run-app
-RUN yarn run installation
-
 # Copy all other project files
 COPY . .
+
+# RUN yarn run installation && yarn run-app
+USER root
+RUN chown -R root ~/.config && chown -R root ~/.cache
+RUN yarn run installation
 
 # Expose port 3000 for the application
 EXPOSE 3000

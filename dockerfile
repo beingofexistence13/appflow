@@ -13,7 +13,8 @@ RUN bash -c ". .nvm/nvm.sh \
 
 RUN echo "nvm use default &>/dev/null" >> ~/.bashrc.d/51-nvm-fix
 
-WORKDIR workspace/appflow
+WORKDIR /workspace/appflow
+
 # Install dependencies
 RUN sudo apt-get update \
     && sudo apt-get install -y --no-install-recommends \
@@ -26,16 +27,13 @@ RUN sudo apt-get update \
 
 
 # Copy package.json and yarn.lock files
-COPY package.json yarn.lock /
+COPY package*.json ./
+
+# RUN yarn run installation && yarn run-app
+RUN yarn run installation
 
 # Copy all other project files
 COPY . .
-
-# Run scripts
-# RUN yarn run installation && yarn run-app
-USER root
-RUN chown -R root ~/.config && chown -R root ~/.cache
-
 
 # Expose port 3000 for the application
 EXPOSE 3000

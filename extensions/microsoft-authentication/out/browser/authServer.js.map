@@ -1,0 +1,1 @@
+{"version":3,"sources":["browser/authServer.ts"],"names":[],"mappings":";AAAA;;;gGAGgG;;;AAEhG,SAAgB,WAAW,CAAC,CAAM;IACjC,MAAM,IAAI,KAAK,CAAC,iBAAiB,CAAC,CAAC;AACpC,CAAC;AAFD,kCAEC;AAED,SAAgB,YAAY,CAAC,CAAM;IAClC,MAAM,IAAI,KAAK,CAAC,iBAAiB,CAAC,CAAC;AACpC,CAAC;AAFD,oCAEC","file":"authServer.js","sourceRoot":"../../src"}

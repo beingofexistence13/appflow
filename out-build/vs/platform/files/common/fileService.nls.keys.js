@@ -1,0 +1,31 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'invalidPath',
+	'noProviderFound',
+	'fileNotFoundError',
+	'fileExists',
+	'err.write',
+	'writeFailedUnlockUnsupported',
+	'writeFailedAtomicUnsupported',
+	'writeFailedAtomicUnlock',
+	'fileIsDirectoryWriteError',
+	'fileModifiedError',
+	'err.read',
+	'fileIsDirectoryReadError',
+	'fileNotModifiedError',
+	'fileTooLargeError',
+	'unableToMoveCopyError1',
+	'unableToMoveCopyError2',
+	'unableToMoveCopyError3',
+	'unableToMoveCopyError4',
+	'mkdirExistsError',
+	'deleteFailedTrashUnsupported',
+	'deleteFailedAtomicUnsupported',
+	'deleteFailedTrashAndAtomicUnsupported',
+	'deleteFailedNotFound',
+	'deleteFailedNonEmptyFolder',
+	'err.readonly',
+	'err.readonly'
+]);

@@ -1,0 +1,33 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'validations.booleanIncorrectType',
+	'validations.expectedNumeric',
+	'validations.stringIncorrectEnumOptions',
+	'validations.stringIncorrectType',
+	'invalidTypeError',
+	'validations.maxLength',
+	'validations.minLength',
+	'validations.regex',
+	'validations.colorFormat',
+	'validations.uriEmpty',
+	'validations.uriMissing',
+	'validations.uriSchemeMissing',
+	'validations.invalidStringEnumValue',
+	'validations.exclusiveMax',
+	'validations.exclusiveMin',
+	'validations.max',
+	'validations.min',
+	'validations.multipleOf',
+	'validations.expectedInteger',
+	'validations.arrayIncorrectType',
+	'validations.stringArrayUniqueItems',
+	'validations.stringArrayMinItem',
+	'validations.stringArrayMaxItem',
+	'validations.stringArrayIncorrectType',
+	'validations.stringArrayItemPattern',
+	'validations.stringArrayItemEnum',
+	'validations.objectIncorrectType',
+	'validations.objectPattern'
+]);

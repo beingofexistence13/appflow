@@ -1,0 +1,1 @@
+{"version":3,"sources":["client/inMemoryDocument.ts"],"names":[],"mappings":";AAAA;;;gGAGgG;;;AAKhG,MAAa,gBAAgB;IAE5B,YACiB,GAAe,EACd,SAAiB,EAClB,UAAU,CAAC;QAFX,QAAG,GAAH,GAAG,CAAY;QACd,cAAS,GAAT,SAAS,CAAQ;QAClB,YAAO,GAAP,OAAO,CAAI;IACxB,CAAC;IAEL,OAAO;QACN,OAAO,IAAI,CAAC,SAAS,CAAC;IACvB,CAAC;CACD;AAXD,4CAWC","file":"inMemoryDocument.js","sourceRoot":"../../src"}

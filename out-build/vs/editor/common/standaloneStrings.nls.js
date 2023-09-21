@@ -1,0 +1,35 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	"Accessibility Help",
+	"Now opening the Accessibility documentation page.",
+	"You are in a read-only pane of a diff editor.",
+	"You are in a pane of a diff editor.",
+	"You are in a read-only code editor.",
+	"You are in a code editor.",
+	"To configure the application to be optimized for usage with a Screen Reader press Command+E now.",
+	"To configure the application to be optimized for usage with a Screen Reader press Control+E now.",
+	"The application is configured to be optimized for usage with a Screen Reader.",
+	"The application is configured to never be optimized for usage with a Screen Reader.",
+	"Screen Reader Optimized Mode enabled.",
+	"Screen Reader Optimized Mode disabled.",
+	"Pressing Tab in the current editor will move focus to the next focusable element. Toggle this behavior by pressing {0}.",
+	"Pressing Tab in the current editor will move focus to the next focusable element. The command {0} is currently not triggerable by a keybinding.",
+	"Run the command: Focus Sticky Scroll ({0}) to focus the currently nested scopes.",
+	"Run the command: Focus Sticky Scroll to focus the currently nested scopes. It is currently not triggerable by a keybinding.",
+	"Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing {0}.",
+	"Pressing Tab in the current editor will insert the tab character. The command {0} is currently not triggerable by a keybinding.",
+	"Show Accessibility Help",
+	"Developer: Inspect Tokens",
+	"Go to Line/Column...",
+	"Show all Quick Access Providers",
+	"Command Palette",
+	"Show And Run Commands",
+	"Go to Symbol...",
+	"Go to Symbol by Category...",
+	"Editor content",
+	"Press Alt+F1 for Accessibility Options.",
+	"Toggle High Contrast Theme",
+	"Made {0} edits in {1} files"
+]);

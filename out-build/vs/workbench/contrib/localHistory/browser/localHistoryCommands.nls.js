@@ -1,0 +1,38 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	"Local History",
+	"Compare with File",
+	"Compare with Previous",
+	"Select for Compare",
+	"Compare with Selected",
+	"Show Contents",
+	"Restore Contents",
+	"File Restored",
+	"Do you want to restore the contents of '{0}'?",
+	"Restoring will discard any unsaved changes.",
+	"&&Restore",
+	"Unable to restore '{0}'.",
+	"Find Entry to Restore",
+	"Select the file to show local history for",
+	"Select the local history entry to open",
+	"Local History: Find Entry to Restore...",
+	"Rename",
+	"Rename Local History Entry",
+	"Enter the new name of the local history entry",
+	"Delete",
+	"Do you want to delete the local history entry of '{0}' from {1}?",
+	"This action is irreversible!",
+	"&&Delete",
+	"Delete All",
+	"Do you want to delete all entries of all files in local history?",
+	"This action is irreversible!",
+	"&&Delete All",
+	"Create Entry",
+	"Create Local History Entry",
+	"Enter the new name of the local history entry for '{0}'",
+	"{0} ({1} • {2})",
+	"{0} ({1} • {2}) ↔ {3}",
+	"{0} ({1} • {2}) ↔ {3} ({4} • {5})"
+]);

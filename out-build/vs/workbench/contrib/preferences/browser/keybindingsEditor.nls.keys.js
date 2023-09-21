@@ -1,0 +1,38 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'recordKeysLabel',
+	'sortByPrecedeneLabel',
+	'SearchKeybindings.FullTextSearchPlaceholder',
+	'SearchKeybindings.KeybindingsSearchPlaceholder',
+	'clearInput',
+	'recording',
+	'command',
+	'keybinding',
+	'when',
+	'source',
+	'show sorted keybindings',
+	'show keybindings',
+	'changeLabel',
+	'addLabel',
+	'addLabel',
+	'editWhen',
+	'removeLabel',
+	'resetLabel',
+	'showSameKeybindings',
+	'copyLabel',
+	'copyCommandLabel',
+	'copyCommandTitleLabel',
+	'error',
+	'editKeybindingLabelWithKey',
+	'editKeybindingLabel',
+	'addKeybindingLabelWithKey',
+	'addKeybindingLabel',
+	'title',
+	'extension label',
+	'keybindingsLabel',
+	'noKeybinding',
+	'noWhen',
+	'keyboard shortcuts aria label'
+]);

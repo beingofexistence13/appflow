@@ -1,0 +1,38 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'terminalTypeTask',
+	'terminalTypeLocal',
+	'terminal.integrated.a11yPromptLabel',
+	'terminal.integrated.useAccessibleBuffer',
+	'terminal.integrated.useAccessibleBufferNoKb',
+	'bellStatus',
+	'keybindingHandling',
+	'configureTerminalSettings',
+	'preview',
+	'confirmMoveTrashMessageFilesAndDirectories',
+	{ key: 'multiLinePasteButton', comment: ['&& denotes a mnemonic'] },
+	'doNotAskAgain',
+	'disconnectStatus',
+	'workspaceNotTrustedCreateTerminal',
+	'workspaceNotTrustedCreateTerminalCwd',
+	'launchFailed.exitCodeOnlyShellIntegration',
+	'shellIntegration.learnMore',
+	'shellIntegration.openSettings',
+	'terminal.requestTrust',
+	'terminalTextBoxAriaLabelNumberAndTitle',
+	'terminalTextBoxAriaLabel',
+	'terminalScreenReaderMode',
+	'terminalHelpAriaLabel',
+	'setTerminalDimensionsColumn',
+	'setTerminalDimensionsRow',
+	'terminalStaleTextBoxAriaLabel',
+	'changeIcon',
+	'changeColor',
+	'launchFailed.exitCodeAndCommandLine',
+	'launchFailed.exitCodeOnly',
+	'terminated.exitCodeAndCommandLine',
+	'terminated.exitCodeOnly',
+	'launchFailed.errorMessage'
+]);

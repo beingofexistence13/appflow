@@ -1,0 +1,38 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'schema.folderExpanded',
+	'schema.folder',
+	'schema.file',
+	'schema.folderNames',
+	'schema.folderName',
+	'schema.folderNamesExpanded',
+	'schema.folderNameExpanded',
+	'schema.fileExtensions',
+	'schema.fileExtension',
+	'schema.fileNames',
+	'schema.fileName',
+	'schema.languageIds',
+	'schema.languageId',
+	'schema.fonts',
+	'schema.id',
+	'schema.id.formatError',
+	'schema.src',
+	'schema.font-path',
+	'schema.font-format',
+	'schema.font-weight',
+	'schema.font-style',
+	'schema.font-size',
+	'schema.iconDefinitions',
+	'schema.iconDefinition',
+	'schema.iconPath',
+	'schema.fontCharacter',
+	'schema.fontColor',
+	'schema.fontSize',
+	'schema.fontId',
+	'schema.light',
+	'schema.highContrast',
+	'schema.hidesExplorerArrows',
+	'schema.showLanguageModeIcons'
+]);

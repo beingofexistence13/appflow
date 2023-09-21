@@ -1,0 +1,29 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'testViewIcon',
+	'testingResultsIcon',
+	'testingRunIcon',
+	'testingRerunIcon',
+	'testingRunAllIcon',
+	'testingDebugAllIcon',
+	'testingDebugIcon',
+	'testingCancelIcon',
+	'filterIcon',
+	'hiddenIcon',
+	'testingShowAsList',
+	'testingShowAsTree',
+	'testingUpdateProfiles',
+	'testingRefreshTests',
+	'testingTurnContinuousRunOn',
+	'testingTurnContinuousRunOff',
+	'testingTurnContinuousRunIsOn',
+	'testingCancelRefreshTests',
+	'testingErrorIcon',
+	'testingFailedIcon',
+	'testingPassedIcon',
+	'testingQueuedIcon',
+	'testingSkippedIcon',
+	'testingUnsetIcon'
+]);

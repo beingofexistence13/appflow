@@ -1,0 +1,32 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'contributes.notebook.provider',
+	'contributes.notebook.provider.viewType',
+	'contributes.notebook.provider.displayName',
+	'contributes.notebook.provider.selector',
+	'contributes.notebook.provider.selector.filenamePattern',
+	'contributes.notebook.selector.provider.excludeFileNamePattern',
+	'contributes.priority',
+	'contributes.priority.default',
+	'contributes.priority.option',
+	'contributes.notebook.renderer',
+	'contributes.notebook.renderer.viewType',
+	'contributes.notebook.renderer.displayName',
+	'contributes.notebook.renderer.hardDependencies',
+	'contributes.notebook.renderer.optionalDependencies',
+	'contributes.notebook.renderer.requiresMessaging.always',
+	'contributes.notebook.renderer.requiresMessaging.optional',
+	'contributes.notebook.renderer.requiresMessaging.never',
+	'contributes.notebook.renderer.requiresMessaging',
+	'contributes.notebook.selector',
+	'contributes.notebook.renderer.entrypoint',
+	'contributes.notebook.renderer.entrypoint',
+	'contributes.notebook.renderer.entrypoint.extends',
+	'contributes.notebook.renderer.entrypoint',
+	'contributes.preload.provider',
+	'contributes.preload.provider.viewType',
+	'contributes.preload.entrypoint',
+	'contributes.preload.localResourceRoots'
+]);

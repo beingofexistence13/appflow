@@ -1,0 +1,36 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	"Overview of how to get up to speed with your editor.",
+	"Open Walkthrough...",
+	"Welcome",
+	"When checked, this page will be shown on startup.",
+	"Show welcome page on startup",
+	"Editing evolved",
+	"Open folder {0} with path {1}",
+	"Recent",
+	"You have no recent folders,",
+	"open a folder",
+	"to start.",
+	"Show All Recent Folders {0}",
+	"More...",
+	"Start",
+	"New",
+	"Updated",
+	"Hide",
+	"Hide",
+	"Walkthroughs",
+	"More...",
+	"Hide",
+	"Hide",
+	"All {0} steps complete!",
+	"{0} of {1} steps complete",
+	'Tip: Use keyboard shortcut ',
+	"Image showing {0}",
+	"Mark Done",
+	"Next Section",
+	"privacy statement",
+	"opt out",
+	"{0} collects usage data. Read our {1} and learn how to {2}."
+]);

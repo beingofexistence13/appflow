@@ -1,0 +1,29 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'notebookActions.insertCodeCellAbove',
+	'notebookActions.insertCodeCellAboveAndFocusContainer',
+	'notebookActions.insertCodeCellBelow',
+	'notebookActions.insertCodeCellBelowAndFocusContainer',
+	'notebookActions.insertMarkdownCellAbove',
+	'notebookActions.insertMarkdownCellBelow',
+	'notebookActions.insertCodeCellAtTop',
+	'notebookActions.insertMarkdownCellAtTop',
+	'notebookActions.menu.insertCode',
+	'notebookActions.menu.insertCode.tooltip',
+	'notebookActions.menu.insertCode.minimalToolbar',
+	'notebookActions.menu.insertCode.tooltip',
+	'notebookActions.menu.insertCode.ontoolbar',
+	'notebookActions.menu.insertCode.tooltip',
+	'notebookActions.menu.insertCode',
+	'notebookActions.menu.insertCode.tooltip',
+	'notebookActions.menu.insertCode.minimaltoolbar',
+	'notebookActions.menu.insertCode.tooltip',
+	'notebookActions.menu.insertMarkdown',
+	'notebookActions.menu.insertMarkdown.tooltip',
+	'notebookActions.menu.insertMarkdown.ontoolbar',
+	'notebookActions.menu.insertMarkdown.tooltip',
+	'notebookActions.menu.insertMarkdown',
+	'notebookActions.menu.insertMarkdown.tooltip'
+]);

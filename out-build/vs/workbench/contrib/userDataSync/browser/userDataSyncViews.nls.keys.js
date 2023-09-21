@@ -1,0 +1,38 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'conflicts',
+	'synced machines',
+	'workbench.actions.sync.editMachineName',
+	'workbench.actions.sync.turnOffSyncOnMachine',
+	'remote sync activity title',
+	'local sync activity title',
+	'downloaded sync activity title',
+	'workbench.actions.sync.extractActivity',
+	'select sync activity file',
+	'workbench.actions.sync.resolveResourceRef',
+	'workbench.actions.sync.compareWithLocal',
+	'remoteToLocalDiff',
+	{ key: 'leftResourceName', comment: ['remote as in file in cloud'] },
+	{ key: 'rightResourceName', comment: ['local as in file in disk'] },
+	'workbench.actions.sync.replaceCurrent',
+	{ key: 'confirm replace', comment: ['A confirmation message to replace current user data (settings, extensions, keybindings, snippets) with selected version'] },
+	'troubleshoot',
+	'reset',
+	'sideBySideLabels',
+	{ key: 'current', comment: ['Represents current machine'] },
+	{ key: 'current', comment: ['Represents current machine'] },
+	'no machines',
+	{ key: 'current', comment: ['Current machine'] },
+	'not found',
+	'turn off sync on multiple machines',
+	'turn off sync on machine',
+	{ key: 'turn off', comment: ['&& denotes a mnemonic'] },
+	'placeholder',
+	'not found',
+	'valid message',
+	'sync logs',
+	'last sync states',
+	{ key: 'current', comment: ['Represents current log file'] }
+]);

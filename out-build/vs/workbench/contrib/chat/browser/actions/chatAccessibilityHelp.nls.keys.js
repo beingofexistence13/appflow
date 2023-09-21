@@ -1,0 +1,31 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'chat.overview',
+	'chat.requestHistory',
+	'chat.inspectResponse',
+	'chat.inspectResponseNoKb',
+	'chat.announcement',
+	'workbench.action.chat.focus',
+	'workbench.action.chat.focusNoKb',
+	'workbench.action.chat.focusInput',
+	'workbench.action.interactiveSession.focusInputNoKb',
+	'workbench.action.chat.nextCodeBlock',
+	'workbench.action.chat.nextCodeBlockNoKb',
+	'workbench.action.chat.nextFileTree',
+	'workbench.action.chat.nextFileTreeNoKb',
+	'workbench.action.chat.clear',
+	'workbench.action.chat.clearNoKb',
+	'inlineChat.overview',
+	'inlineChat.access',
+	'inlineChat.requestHistory',
+	'inlineChat.inspectResponse',
+	'inlineChat.inspectResponseNoKb',
+	'inlineChat.contextActions',
+	'inlineChat.fix',
+	'inlineChat.diff',
+	'inlineChat.diffNoKb',
+	'inlineChat.toolbar',
+	'chat.audioCues'
+]);

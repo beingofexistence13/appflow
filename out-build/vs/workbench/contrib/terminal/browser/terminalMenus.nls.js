@@ -1,0 +1,37 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	"&&New Terminal",
+	"&&Split Terminal",
+	"Run &&Active File",
+	"Run &&Selected Text",
+	"Copy",
+	"Copy as HTML",
+	"Paste",
+	"Clear",
+	"Select All",
+	"Copy",
+	"Copy as HTML",
+	"Paste",
+	"Clear",
+	"Select All",
+	"New Terminal With Profile",
+	"Select Default Profile",
+	"Configure Terminal Settings",
+	"Run Task...",
+	"Configure Tasks...",
+	"Switch Terminal",
+	"Clear Terminal",
+	"Run Active File",
+	"Run Selected Text",
+	"Rename...",
+	"Change Icon...",
+	"Change Color...",
+	"Toggle Size to Content Width",
+	"Join Terminals",
+	"{0} (Default)",
+	"{0} (Default)",
+	"{0} (Default)",
+	'Split Terminal'
+]);

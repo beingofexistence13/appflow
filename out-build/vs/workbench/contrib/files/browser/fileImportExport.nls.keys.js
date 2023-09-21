@@ -1,0 +1,38 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'uploadingFiles',
+	'overwrite',
+	'overwriting',
+	'uploadProgressSmallMany',
+	'uploadProgressLarge',
+	'copyingFiles',
+	'copyFolders',
+	'copyFolder',
+	'addFolders',
+	'addFolder',
+	'dropFolders',
+	'dropFolder',
+	'copyfolders',
+	'copyfolder',
+	'filesInaccessible',
+	'fileInaccessible',
+	{ comment: ['substitution will be the name of the file that was imported'], key: 'importFile' },
+	{ comment: ['substitution will be the number of files that were imported'], key: 'importnFile' },
+	{ comment: ['substitution will be the name of the file that was copied'], key: 'copyingFile' },
+	{ comment: ['substitution will be the number of files that were copied'], key: 'copyingnFile' },
+	'downloadingFiles',
+	'downloadProgressSmallMany',
+	'downloadProgressLarge',
+	'downloadButton',
+	'chooseWhereToDownload',
+	'downloadBulkEdit',
+	'downloadingBulkEdit',
+	'confirmOverwrite',
+	'irreversible',
+	{ key: 'replaceButtonLabel', comment: ['&& denotes a mnemonic'] },
+	'confirmManyOverwrites',
+	'irreversible',
+	{ key: 'replaceButtonLabel', comment: ['&& denotes a mnemonic'] }
+]);

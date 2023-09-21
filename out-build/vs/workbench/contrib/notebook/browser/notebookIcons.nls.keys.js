@@ -1,0 +1,31 @@
+/*---------------------------------------------------------
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *--------------------------------------------------------*/
+define([], [
+	'selectKernelIcon',
+	'executeIcon',
+	'executeAboveIcon',
+	'executeBelowIcon',
+	'stopIcon',
+	'deleteCellIcon',
+	'executeAllIcon',
+	'editIcon',
+	'stopEditIcon',
+	'moveUpIcon',
+	'moveDownIcon',
+	'clearIcon',
+	'splitCellIcon',
+	'successStateIcon',
+	'errorStateIcon',
+	'pendingStateIcon',
+	'executingStateIcon',
+	'collapsedIcon',
+	'expandedIcon',
+	'openAsTextIcon',
+	'revertIcon',
+	'renderOutputIcon',
+	'mimetypeIcon',
+	'copyIcon',
+	'previousChangeIcon',
+	'nextChangeIcon'
+]);

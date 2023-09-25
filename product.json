@@ -1,45 +1,45 @@
 {
-	"nameShort": "OpenVSCode Server",
-	"nameLong": "OpenVSCode Server",
-	"applicationName": "openvscode-server",
-	"dataFolderName": ".openvscode-server",
-	"win32MutexName": "openvscodeserver",
+	"nameShort": "Appflow",
+	"nameLong": "Appflow",
+	"applicationName": "appflow",
+	"dataFolderName": ".appflow",
+	"win32MutexName": "appflowserver",
 	"licenseName": "MIT",
-	"licenseUrl": "https://github.com/gitpod-io/openvscode-server/blob/main/LICENSE.txt",
-	"serverLicenseUrl": "https://github.com/gitpod-io/openvscode-server/blob/main/LICENSE.txt",
+	"licenseUrl": "https://github.com/gitpod-io/appflow/blob/main/LICENSE.txt",
+	"serverLicenseUrl": "https://github.com/gitpod-io/appflow/blob/main/LICENSE.txt",
 	"serverGreeting": [],
 	"serverLicense": [],
 	"serverLicensePrompt": "",
-	"serverApplicationName": "openvscode-server",
-	"serverDataFolderName": ".openvscode-server",
-	"tunnelApplicationName": "openvscode-server-tunnel",
-	"win32DirName": "OpenVSCode Server",
-	"win32NameVersion": "OpenVSCode Server",
-	"win32RegValueName": "OpenVSCodeServer",
+	"serverApplicationName": "appflow",
+	"serverDataFolderName": ".appflow",
+	"tunnelApplicationName": "appflow-tunnel",
+	"win32DirName": "Appflow",
+	"win32NameVersion": "Appflow",
+	"win32RegValueName": "appflowServer",
 	"win32AppId": "{{E34003BB-9E10-4501-8C11-BE3FAA83F23F}",
 	"win32x64AppId": "{{D77B7E06-80BA-4137-BCF4-654B95CCEBC5}",
 	"win32arm64AppId": "{{D1ACE434-89C5-48D1-88D3-E2991DF85475}",
 	"win32UserAppId": "{{C6065F05-9603-4FC4-8101-B9781A25D88E}",
 	"win32x64UserAppId": "{{CC6B787D-37A0-49E8-AE24-8559A032BE0C}",
 	"win32arm64UserAppId": "{{3AEBF0C8-F733-4AD4-BADE-FDB816D53D7B}",
-	"win32AppUserModelId": "OpenVSCode Server",
+	"win32AppUserModelId": "Appflow",
 	"win32ShellNameShort": "OpenVSC&ode Server",
-	"win32TunnelServiceMutex": "openvscode.server-tunnelservice",
-	"win32TunnelMutex": "openvscode.server-tunnel",
-	"darwinBundleIdentifier": "openvscode.server",
-	"linuxIconName": "openvscode.server",
+	"win32TunnelServiceMutex": "appflow.server-tunnelservice",
+	"win32TunnelMutex": "appflow.server-tunnel",
+	"darwinBundleIdentifier": "appflow.server",
+	"linuxIconName": "appflow.server",
 	"licenseFileName": "LICENSE.txt",
 	"twitterUrl": "https://twitter.com/gitpod",
-	"reportIssueUrl": "https://github.com/gitpod-io/openvscode-server/issues/new",
-	"requestFeatureUrl": "https://github.com/gitpod-io/openvscode-server/issues",
+	"reportIssueUrl": "https://github.com/gitpod-io/appflow/issues/new",
+	"requestFeatureUrl": "https://github.com/gitpod-io/appflow/issues",
 	"reportMarketplaceIssueUrl": "https://github.com/eclipse/openvsx/issues",
 	"sendASmile": {
-		"reportIssueUrl": "https://github.com/gitpod-io/openvscode-server/issues/new",
-		"requestFeatureUrl": "https://github.com/gitpod-io/openvscode-server/issues"
+		"reportIssueUrl": "https://github.com/gitpod-io/appflow/issues/new",
+		"requestFeatureUrl": "https://github.com/gitpod-io/appflow/issues"
 	},
 	"nodejsRepository": "https://nodejs.org",
-	"urlProtocol": "openvscode-server",
-	"embedderIdentifier": "openvscode-server",
+	"urlProtocol": "appflow",
+	"embedderIdentifier": "appflow",
 	"webviewContentExternalBaseUrlTemplate": "https://{{uuid}}.vscode-cdn.net/insider/ef65ac1ba57f57f2a3961bfe94aa20481caca4c6/out/vs/workbench/contrib/webview/browser/pre/",
 	"extensionTips": {
 		"muhammad-sammy.csharp": "{**/*.cs,**/project.json,**/global.json,**/*.csproj,**/*.cshtml,**/*.sln,**/appsettings.json}",
@@ -65,7 +65,7 @@
 		"stylelint.vscode-stylelint": "{**/.stylelintrc,**/stylelint.config.js}",
 		"ms-mssql.mssql": "{**/*.sql}",
 		"mtxr.sqltools": "{**/*.sql}",
-		"ms-vscode.sublime-keybindings": "{**/.sublime-project,**/.sublime-workspace}",
+		"ms-vscode.sublime-keybindings": "{**/.sublime-project,**/.sublime-appSpace}",
 		"k--kato.intellij-idea-keybindings": "{**/.idea}",
 		"christian-kohler.npm-intellisense": "{**/package.json}",
 		"vue.volar": "{**/*.vue}",
@@ -579,23 +579,23 @@
 		],
 		"CoenraadS.bracket-pair-colorizer": [
 			"ui",
-			"workspace"
+			"appSpace"
 		],
 		"hiro-sun.vscode-emacs": [
 			"ui",
-			"workspace"
+			"appSpace"
 		],
 		"hnw.vscode-auto-open-markdown-preview": [
 			"ui",
-			"workspace"
+			"appSpace"
 		],
 		"wayou.vscode-todo-highlight": [
 			"ui",
-			"workspace"
+			"appSpace"
 		],
 		"aaron-bond.better-comments": [
 			"ui",
-			"workspace"
+			"appSpace"
 		],
 		"vscodevim.vim": [
 			"ui"
@@ -606,7 +606,7 @@
 	},
 	"extensionPointExtensionKind": {
 		"typescriptServerPlugins": [
-			"workspace"
+			"appSpace"
 		]
 	},
 	"builtInExtensions": [
